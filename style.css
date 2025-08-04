@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #013a71;
+    height: 15vh;
+}
+
+.headmenu {
+    margin-left: 100px;
+
+}
+
+.mainlogo {
+    height: 100px;
+}
+
+.main {
+    background-color: #032749;
+    height: 70vh;
+}
+
+.footer {
+    height: 15vh;
+    background-color: #013a71;
+}
