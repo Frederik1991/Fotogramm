@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2.ttf") format("truetype");
+}
+
 body {
     margin: 0;
 }
@@ -22,6 +27,15 @@ body {
 .main {
     background-color: #032749;
     height: 70vh;
+}
+
+.headline {
+    
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    color: white;
+
 }
 
 .footer {
