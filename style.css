@@ -1,11 +1,12 @@
 @font-face {
   font-family: "Raleway";
-  src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2.ttf") format("truetype");
+  src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
     margin: 0;
     width: 100%;
+    font-family: "Raleway";
     
 }
 
