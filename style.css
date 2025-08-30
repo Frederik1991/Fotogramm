@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Raleway";
-  src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf") format("truetype");
+    font-family: "Raleway";
+    src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
     margin: 0;
     width: 100%;
     font-family: "Raleway";
-    
+
 }
 
 .header {
@@ -29,11 +29,11 @@ body {
 
 .main {
     background-image: linear-gradient(200deg, transparent, #032749);
-    flex:1;
+    flex: 1;
 }
 
 .headline {
-    
+
     display: flex;
     height: 50px;
     justify-content: center;
@@ -53,18 +53,18 @@ body {
     height: 100%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    
+
 }
 
 .button_look {
-min-width: 200px;
-height: 200px;
-border-width: 0;
-padding-inline: 0;
-padding-block: 0;
-border-radius: 5%;
-overflow: hidden;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    min-width: 200px;
+    height: 200px;
+    border-width: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button_look:hover {
@@ -74,7 +74,26 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: all 0.2s ease-in;
 }
 
-   
+.dialog_size {
+    max-height: 700px;
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: #032749;
+    border-color: aliceblue;
+    color: white;
+    
+
+}
+
+.dialog_size::backdrop {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.img_size {
+    max-height: 480px;
+}
+
+
 
 .footer {
     height: 120px;

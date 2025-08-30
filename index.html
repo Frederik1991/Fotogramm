@@ -15,7 +15,7 @@
         <headmenu class="headmenu">
             <mainlogo>
                 <a href="./index.html">
-                <img class="mainlogo" src="./img/Fotogram_Logo.svg" alt="Bild:Farbkleckse">
+                    <img class="mainlogo" src="./img/Fotogram_Logo.svg" alt="Bild:Farbkleckse">
                 </a>
             </mainlogo>
 
@@ -25,12 +25,12 @@
     </header>
     <main class="main">
         <headline class="headline">
-        <h1>Herzlich Wilkommen in meinem Fotoalbum!</h1>
+            <h1>Herzlich Wilkommen in meinem Fotoalbum!</h1>
         </headline>
 
         <section class="img_area">
-            <button class="button_look"><img src="./img/iceberg-8008071_1280.jpg"></button>
- 
+            <button onclick="openDialog()" class="button_look"><img src="./img/iceberg-8008071_1280.jpg"></button>
+
             <button class="button_look"><img src="./img/iceberg-8162195_1280.jpg"></button>
 
             <button class="button_look"></button>
@@ -53,11 +53,36 @@
 
             <button class="button_look"></button>
 
-            
-    
         </section>
+
+        <dialog id="img_one" class="dialog_size">
+            <header>
+                <h2>
+                    Bild 1
+                </h2>
+            </header>
+            <section>
+                <img class="img_size" src="./img/iceberg-8008071_1280.jpg">
+            </section>
+
+            <footer>
+                <button onclick="closeDialog()">Schließen</button>
+            </footer>
+        </dialog>
     </main>
     <footer class="footer"></footer>
+
+    <script>
+        const dialogRef = document.getElementById("img_one");
+
+        function openDialog() {
+            dialogRef.showModal();
+        }
+
+        function closeDialog() {
+            dialogRef.close();
+        }
+    </script>
 
 </body>
 
