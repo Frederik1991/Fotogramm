@@ -93,6 +93,12 @@ body {
     max-height: 480px;
 }
 
+.footer_dialog {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
 
 
 .footer {
