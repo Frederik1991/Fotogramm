@@ -99,6 +99,18 @@ body {
     justify-content: space-between;
 }
 
+.btn_size {
+        background-color: #032749;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn_size:hover {
+    cursor: pointer;
+}
+
 
 
 .footer {
