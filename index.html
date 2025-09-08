@@ -15,7 +15,8 @@
         <headmenu class="headmenu">
             <mainlogo>
                 <a href="./index.html">
-                    <img class="mainlogo" src="./img/Fotogram_Logo.svg" alt="Bild:Farbkleckse">
+                    <img class="mainlogo hide_mainlogo" src="./img/Fotogram_Logo.svg" alt="Bild:Farbkleckse">
+                    <img class="mainlogo_mobile" src="./img/favicon.png" alt="Bild:Farbkleckse">
                 </a>
             </mainlogo>
 
@@ -24,11 +25,11 @@
 
     </header>
     <main class="main">
-        <headline class="headline">
-            <h1>Herzlich Wilkommen in meinem Fotoalbum!</h1>
+        <headline class="headline headline_mobile">
+            <h1 class="headline_txt">Herzlich Wilkommen in meinem Fotoalbum!</h1>
         </headline>
 
-        <section class="img_area">
+        <section class="img_area img_area_mobile">
             <button onclick="openDialog()" class="button_look" data-index="0"><img src="./img/iceberg-8008071_1280.jpg"></button>
 
             <button onclick="openDialog()" class="button_look" data-index="1"><img src="./img/iceberg-8162195_1280.jpg"></button>
@@ -62,16 +63,16 @@
                 </h2>
             </header>
             <section>
-                <img id="galleryImage" src="" alt="Galerie-Bild" width="750">
+                <img class="galleryImage galleryImage_mobile galleryImage_mobile_small" id="galleryImage" src="" alt="Galerie-Bild" width="750">
                 <br>
                 
                 
             </section>
 
             <footer class="footer_dialog">
-                <button id="prevBtn" class="btn_size">◀ Zurück</button>
-                <button onclick="closeDialog()" class="btn_size">X</button>
-                <button id="nextBtn" class="btn_size">Weiter ▶</button>
+                <button id="prevBtn" class="btn_size btn_size_mobile">◀ Zurück</button>
+                <button onclick="closeDialog()" class="btn_size btn_size_mobile">X</button>
+                <button id="nextBtn" class="btn_size btn_size_mobile">Weiter ▶</button>
             </footer>
         </dialog>
     </main>
