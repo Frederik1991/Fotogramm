@@ -15,7 +15,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: #013a71;
-    height: 120px;
+    height: 130px;
 }
 
 .headmenu {
@@ -136,7 +136,7 @@ body {
 
 
 .footer {
-    height: 120px;
+    height: 130px;
     background-color: #013a71;
 }
 
