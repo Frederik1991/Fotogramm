@@ -30,16 +30,19 @@ body {
 .main {
     background-image: linear-gradient(200deg, transparent, #032749);
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .headline {
 
     display: flex;
-    height: 50px;
+    flex: 1;
     justify-content: center;
     color: white;
     text-align: center;
     padding: 40px;
+    flex-direction: column;
 }
 
 .headline_txt {
@@ -138,6 +141,19 @@ body {
 .footer {
     height: 130px;
     background-color: #013a71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imp_button {
+    color: white;
+    text-decoration: none;
+}
+.imp_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media (max-width: 800px) {

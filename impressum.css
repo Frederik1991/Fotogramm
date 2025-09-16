@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("./fonts/Baloo_Bhaijaan_2\,Viga/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Raleway";
+
+}
+
+.mainlogo {
+    height: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #013a71;
+    height: 130px;
+}
+
+.headmenu {
+    margin-left: 10%;
+
+}
+
+.mainlogo {
+    height: 100px;
+}
+
+.main {
+    background-image: linear-gradient(200deg, transparent, #032749);
+    flex: 1;
+}
+
+.headline {
+
+    display: flex;
+    height: 63vh;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.headline_txt {
+
+    color: white;
+    text-shadow:
+        3px 3px 0 #013a71,
+        -1px -1px 0 #013a71,
+        1px -1px 0 #013a71,
+        -1px 1px 0 #013a71,
+        1px 1px 0 #013a71;
+}
+
+.mainlogo_mobile {
+    height: 100px;
+}
+
+.footer {
+    height: 130px;
+    background-color: #013a71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imp_button {
+    color: white;
+    text-decoration: none;
+}
+.imp_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media (max-width: 640px) {
+
+    .hide_mainlogo {
+        display: none;
+    }
+}
+
+@media (min-width: 640px) {
+
+    .mainlogo_mobile {
+        display: none;
+
+    }
+}
