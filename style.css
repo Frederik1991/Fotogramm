@@ -12,15 +12,20 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     background-color: #013a71;
     height: 130px;
+    width: 100%
 }
 
 .headmenu {
-    margin-left: 10%;
+    max-width: 1440px;
+    margin: 0 auto;
 
+}
+
+.wide_limit {
+    max-width: 1440px;
 }
 
 .mainlogo {
@@ -29,15 +34,15 @@ body {
 
 .main {
     background-image: linear-gradient(200deg, transparent, #032749);
-    flex: 1;
     display: flex;
     flex-direction: column;
+    min-height: 80vh;
+    align-items: center;
 }
 
 .headline {
 
     display: flex;
-    flex: 1;
     justify-content: center;
     color: white;
     text-align: center;
@@ -59,9 +64,11 @@ body {
 .img_area {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
     justify-content: space-between;
     gap: 30px;
     padding: 50px;
+    max-width: 1440px;
 }
 
 .button_look img {
